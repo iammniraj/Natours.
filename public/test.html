@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: violet;
+      }
+      .btn:active,
+      .btn:link {
+        text-transform: uppercase;
+        text-decoration: none;
+        font-size: 2.6rem;
+        font-weight: 700;
+        border-radius: 10rem;
+        padding: 10px 100px;
+        position: relative;
+      }
+      .btn-white {
+        background-color: white;
+        color: gray;
+      }
+
+      .btn::after {
+        content: "";
+        display: inline-block;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bor
+        /* background-color: red; */
+      }
+      .hii {
+        margin-top: 100px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="hii">
+      <a class="btn btn-white" href="#">Click me</a>
+    </div>
+  </body>
+</html>

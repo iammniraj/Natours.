@@ -1,0 +1,60 @@
+/* Animation */
+@keyframes movetoright {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  80% {
+    transform: translateX(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes movetoTop {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes movetoLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  80% {
+    transform: translateX(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes leftRigth {
+  0% {
+    opacity: 1;
+    transform: translateX(-5rem);
+    color: $color-primary-dark;
+  }
+  80% {
+    transform: translateX(4rem);
+    color: skyblue;
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+    color: $color-primary-light;
+    font-weight: 700;
+    font-size: small;
+  }
+}
+@keyframes animate__bounce {
+}
